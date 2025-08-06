@@ -1,36 +1,136 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
 .pnp.js
+node_modules/
 
-# testing
+# Testing
 /coverage
+*.lcov
+.nyc_output
 
-# next.js
+# Next.js
 /.next/
 /out/
 
-# production
+# Production
 /build
+/dist
 
-# misc
+# Misc
 .DS_Store
 *.pem
 
-# debug
+# Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
 
-# local env files
+# Local env files
 .env
 .env*.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# vercel
+# Vercel
 .vercel
 
-# typescript
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE and Editor files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ESLint cache
+.eslintcache
+
+# Optional npm cache directory
+.npm
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Temporary folders
+tmp/
+temp/
+
+# Package manager lock files (keep package-lock.json for consistency)
+# yarn.lock
+# pnpm-lock.yaml
+
+# Personal files
+*.personal
+notes.txt
+notes.md
+TODO.md
+NOTES.md
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+
+# Resume files (if you want to keep them private)
+# /public/resume.pdf
+# /public/Resume.pdf
+
+# Development tools
+.bolt/
+
+# Build artifacts
+*.tar.gz
