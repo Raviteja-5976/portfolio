@@ -104,7 +104,7 @@ export const Hero = () => {
         >
           {[
             { icon: Github, href: "https://github.com/Raviteja-5976", label: "GitHub" },
-            { icon: Linkedin, href: "https://linkedin.com/in/raviteja-karnati", label: "LinkedIn" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/raviteja-karnati-017306265/", label: "LinkedIn" },
             { icon: ExternalLink, href: "https://paradigm.raviteja.tech/", label: "Blog" },
             { icon: Mail, href: "mailto:ravitejakarnati5312@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (

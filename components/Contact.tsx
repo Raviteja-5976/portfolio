@@ -49,7 +49,7 @@ export const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "raviteja-karnati",
-      href: "https://linkedin.com/in/raviteja-karnati",
+      href: "https://www.linkedin.com/in/raviteja-karnati-017306265/",
       color: "from-blue-400 to-blue-600"
     },
     {
