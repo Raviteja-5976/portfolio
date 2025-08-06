@@ -156,7 +156,7 @@ export const HeroSection = () => {
             <motion.a
               whileHover={{ scale: 1.05, y: -2, boxShadow: "0 0 30px rgba(16, 185, 129, 0.6)" }}
               whileTap={{ scale: 0.95 }}
-              href={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/Resume.pdf`}
+              href="/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="interactive-card w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-emerald-400 via-green-500 to-teal-600 rounded-full text-white font-semibold transition-all duration-300 text-sm sm:text-base flex items-center justify-center gap-2 hover:from-emerald-300 hover:via-green-400 hover:to-teal-500 shadow-lg shadow-emerald-500/25"

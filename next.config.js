@@ -5,8 +5,9 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
-  basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio/' : '',
+  // Remove basePath and assetPrefix for custom domain
+  basePath: '',
+  assetPrefix: '',
   trailingSlash: true,
 };
 
