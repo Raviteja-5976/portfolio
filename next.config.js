@@ -5,8 +5,8 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
-  basePath: process.env.NODE_ENV === 'production' ? '/raviteja-portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/raviteja-portfolio/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio/' : '',
   trailingSlash: true,
 };
 
